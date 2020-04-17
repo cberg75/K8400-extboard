@@ -1,0 +1,380 @@
+EESchema Schematic File Version 4
+LIBS:K8400-extboard-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x10_Male J3
+U 1 1 5E89E17A
+P 4950 6200
+F 0 "J3" H 4922 6082 50  0000 R CNN
+F 1 "RemoteHeader_10" H 4922 6173 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical" H 4950 6200 50  0001 C CNN
+F 3 "~" H 4950 6200 50  0001 C CNN
+	1    4950 6200
+	0    -1   -1   0   
+$EndComp
+Text Label 4750 6000 1    50   ~ 0
+HEAT1-A
+Text Label 4850 6000 1    50   ~ 0
+HEAT1-B
+Text Label 4950 6000 1    50   ~ 0
+TEMP1-A
+Text Label 5050 6000 1    50   ~ 0
+TEMP1-B
+Text Label 5350 6000 1    50   ~ 0
+HEAT2-A
+Text Label 5450 6000 1    50   ~ 0
+HEAT2-B
+Text Label 5150 6000 1    50   ~ 0
+TEMP2-A
+Text Label 5250 6000 1    50   ~ 0
+TEMP2-B
+Text Label 4550 6000 1    50   ~ 0
+FAN-
+$Comp
+L Device:R R1
+U 1 1 5E8A0FF5
+P 3550 3850
+F 0 "R1" H 3620 3896 50  0000 L CNN
+F 1 "680" H 3620 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3480 3850 50  0001 C CNN
+F 3 "~" H 3550 3850 50  0001 C CNN
+	1    3550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E8A16E9
+P 7900 3900
+F 0 "R3" H 7970 3946 50  0000 L CNN
+F 1 "680" H 7970 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7830 3900 50  0001 C CNN
+F 3 "~" H 7900 3900 50  0001 C CNN
+	1    7900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E8A1D6A
+P 4350 5350
+F 0 "R2" H 4420 5396 50  0000 L CNN
+F 1 "22" H 4420 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4280 5350 50  0001 C CNN
+F 3 "~" H 4350 5350 50  0001 C CNN
+	1    4350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5E8A2285
+P 3800 5400
+F 0 "C1" H 3918 5446 50  0000 L CNN
+F 1 "22uF 50V" H 3918 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2010_5025Metric" H 3838 5250 50  0001 C CNN
+F 3 "~" H 3800 5400 50  0001 C CNN
+	1    3800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5E8A291F
+P 3900 3850
+F 0 "D2" V 3939 3733 50  0000 R CNN
+F 1 "LED" V 3848 3733 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 3900 3850 50  0001 C CNN
+F 3 "~" H 3900 3850 50  0001 C CNN
+	1    3900 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5E8A3941
+P 7600 3900
+F 0 "D3" V 7639 3783 50  0000 R CNN
+F 1 "LED" V 7548 3783 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 7600 3900 50  0001 C CNN
+F 3 "~" H 7600 3900 50  0001 C CNN
+	1    7600 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 5E8A74B8
+P 5650 2250
+F 0 "J5" V 5588 2062 50  0000 R CNN
+F 1 "Cool-1" V 5497 2062 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 5650 2250 50  0001 C CNN
+F 3 "~" H 5650 2250 50  0001 C CNN
+	1    5650 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5E8A752F
+P 3250 4600
+F 0 "J1" V 3188 4412 50  0000 R CNN
+F 1 "Part-2" V 3097 4412 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3250 4600 50  0001 C CNN
+F 3 "~" H 3250 4600 50  0001 C CNN
+	1    3250 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 6000 4750 4800
+Wire Wire Line
+	4750 4800 4650 4800
+Wire Wire Line
+	4650 4800 4650 4250
+Wire Wire Line
+	4850 6000 4850 4550
+Wire Wire Line
+	4850 4550 4550 4550
+Wire Wire Line
+	4550 4550 4550 4400
+Wire Wire Line
+	5050 6000 5050 4550
+Wire Wire Line
+	5050 4550 5100 4550
+Wire Wire Line
+	5100 4550 5100 3550
+Wire Wire Line
+	4950 6000 4950 4350
+Wire Wire Line
+	4950 4350 5200 4350
+Wire Wire Line
+	5350 6000 5350 5150
+Wire Wire Line
+	5350 5150 6800 5150
+Wire Wire Line
+	6800 5150 6800 4450
+Wire Wire Line
+	6700 5050 5450 5050
+Wire Wire Line
+	5250 6000 5250 4800
+Wire Wire Line
+	5250 4800 6100 4800
+Wire Wire Line
+	5150 6000 5150 4700
+Wire Wire Line
+	5150 4700 6200 4700
+Wire Wire Line
+	7900 4050 7900 4450
+Wire Wire Line
+	7900 4450 6800 4450
+Connection ~ 6800 4450
+Wire Wire Line
+	6800 4450 6800 3750
+Wire Wire Line
+	7600 4050 7600 4350
+Wire Wire Line
+	7600 4350 6700 4350
+Connection ~ 6700 4350
+Wire Wire Line
+	6700 4350 6700 5050
+Wire Wire Line
+	7600 3750 7600 3600
+Wire Wire Line
+	7600 3600 7900 3600
+Wire Wire Line
+	7900 3600 7900 3750
+Wire Wire Line
+	4550 4400 3900 4400
+Wire Wire Line
+	3900 4400 3900 4000
+Connection ~ 4550 4400
+Wire Wire Line
+	4550 4400 4550 3650
+Wire Wire Line
+	4650 4250 3550 4250
+Wire Wire Line
+	3550 4250 3550 4000
+Connection ~ 4650 4250
+Wire Wire Line
+	4650 4250 4650 3750
+Wire Wire Line
+	3550 3700 3550 3550
+Wire Wire Line
+	3550 3550 3900 3550
+Wire Wire Line
+	3900 3550 3900 3700
+Wire Wire Line
+	4350 5200 4350 5000
+Wire Wire Line
+	3800 5000 3800 5250
+Wire Wire Line
+	5450 5050 5450 6000
+Wire Wire Line
+	4650 5700 4650 6000
+Wire Wire Line
+	4650 5700 4350 5700
+Wire Wire Line
+	4350 5700 4350 5500
+Connection ~ 3800 5800
+Wire Wire Line
+	3800 5800 3250 5800
+Wire Wire Line
+	3800 5550 3800 5800
+Wire Wire Line
+	3250 4800 3250 5800
+Wire Wire Line
+	3800 5800 4550 5800
+Wire Wire Line
+	3350 5000 3800 5000
+Wire Wire Line
+	3350 4800 3350 5000
+Connection ~ 3800 5000
+Wire Wire Line
+	3800 5000 4350 5000
+Wire Wire Line
+	4550 5800 4550 6000
+Text Label 4650 6000 1    50   ~ 0
+FAN+
+$Comp
+L Diode:1N4148W D1
+U 1 1 5E90DADB
+P 2900 3850
+F 0 "D1" V 2946 3770 50  0000 R CNN
+F 1 "1N4148W" V 2855 3770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2900 3675 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2900 3850 50  0001 C CNN
+	1    2900 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D4
+U 1 1 5E910D10
+P 8200 3900
+F 0 "D4" V 8246 3820 50  0000 R CNN
+F 1 "1N4148W" V 8155 3820 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8200 3725 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8200 3900 50  0001 C CNN
+	1    8200 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 4050 8200 4250
+Wire Wire Line
+	8200 4250 8600 4250
+Wire Wire Line
+	8600 4250 8600 2850
+Wire Wire Line
+	8600 2850 5750 2850
+Wire Wire Line
+	5750 2850 5750 2450
+Wire Wire Line
+	2900 4000 2900 4250
+Wire Wire Line
+	2900 4250 2700 4250
+Wire Wire Line
+	2700 4250 2700 2850
+Wire Wire Line
+	4650 3750 4150 3750
+Wire Wire Line
+	4150 3750 4150 3300
+Wire Wire Line
+	2900 3300 2900 3700
+Connection ~ 4650 3750
+Wire Wire Line
+	4650 3750 4650 3550
+Wire Wire Line
+	6800 3750 7250 3750
+Wire Wire Line
+	7250 3750 7250 3400
+Wire Wire Line
+	7250 3400 8200 3400
+Wire Wire Line
+	8200 3400 8200 3750
+Connection ~ 6800 3750
+Wire Wire Line
+	6800 3750 6800 3550
+Wire Wire Line
+	6700 3800 6350 3800
+Wire Wire Line
+	6350 3800 6350 3100
+Wire Wire Line
+	6350 3100 5650 3100
+Wire Wire Line
+	5650 3100 5650 2450
+Wire Wire Line
+	6700 3800 6700 4350
+Wire Wire Line
+	4550 3650 4400 3650
+Wire Wire Line
+	4400 3650 4400 3100
+Wire Wire Line
+	4400 3100 5650 3100
+Connection ~ 4550 3650
+Connection ~ 5650 3100
+Wire Wire Line
+	2900 3300 4150 3300
+Wire Wire Line
+	2700 2850 5750 2850
+Connection ~ 5750 2850
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5E93778F
+P 4850 3150
+F 0 "J2" V 4788 2862 50  0000 R CNN
+F 1 "HEAT1" V 4697 2862 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 4850 3150 50  0001 C CNN
+F 3 "~" H 4850 3150 50  0001 C CNN
+	1    4850 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 5E93AC82
+P 6200 3200
+F 0 "J4" V 6138 2912 50  0000 R CNN
+F 1 "HEAT2" V 6047 2912 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 6200 3200 50  0001 C CNN
+F 3 "~" H 6200 3200 50  0001 C CNN
+	1    6200 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 3350 4750 3450
+Wire Wire Line
+	4750 3450 4550 3450
+Wire Wire Line
+	4550 3450 4550 3650
+Wire Wire Line
+	4850 3350 4850 3550
+Wire Wire Line
+	4850 3550 4650 3550
+Wire Wire Line
+	4950 3350 4950 3550
+Wire Wire Line
+	4950 3550 5100 3550
+Wire Wire Line
+	5050 3350 5050 3450
+Wire Wire Line
+	5050 3450 5200 3450
+Wire Wire Line
+	5200 3450 5200 4350
+Wire Wire Line
+	6100 3400 6100 4800
+Wire Wire Line
+	6200 3400 6200 4700
+Wire Wire Line
+	6300 3400 6300 3800
+Wire Wire Line
+	6300 3800 6350 3800
+Connection ~ 6350 3800
+Wire Wire Line
+	6800 3550 6400 3550
+Wire Wire Line
+	6400 3550 6400 3400
+$EndSCHEMATC
